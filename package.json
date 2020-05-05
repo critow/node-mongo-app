@@ -1,0 +1,21 @@
+{
+  "name": "node-mongo-app",
+  "version": "1.0.0",
+  "description": "learning project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": "git@github.com:critow/node-mongo-app.git",
+  "author": "Andrew Kurmaev <critowpas@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mongoose": "^5.9.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
